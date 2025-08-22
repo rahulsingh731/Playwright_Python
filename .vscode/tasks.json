@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run Pytest",
+			"command": "c:/Users/Rahul/PycharmProjects/Playwright_FrameWork_from_Scratch/.venv/Scripts/python.exe -m pytest",
+			"args": [
+				"-v"
+			],
+			"group": "test",
+			"problemMatcher": [
+				"$pytest"
+			]
+		}
+	]
+}
