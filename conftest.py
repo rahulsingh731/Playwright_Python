@@ -36,3 +36,11 @@ def BrowserInstance(playwright,request):
     page.close()
     context.close()
     browser.close()
+@pytest.fixture(scope="function")
+def GreetUser():
+    print("Hello User")
+    yield "Rahul"
+    print("Bye Bye")
+
+
+    
